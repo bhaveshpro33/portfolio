@@ -97,7 +97,7 @@ function Edu({ e }) {
           <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 12 4 26l28 14 28-14z" fill="currentColor" /><path d="M16 34v12c0 4 8 8 16 8s16-4 16-8V34l-16 8z" fill="currentColor" opacity=".55" /><path d="M58 28v18" stroke="currentColor" strokeWidth="3" /></svg>
           <h3>{e.degree}</h3><p>{e.school}</p>
           <ol className="sems" aria-label={`Semester ${e.sem} of ${e.total}`}>{Array.from({ length: e.total }, (_, i) => <li key={i} style={{ "--k": i }} className={i < e.sem - 1 ? "done" : i === e.sem - 1 ? "now" : ""} />)}</ol>
-          <small>Currently in semester {e.sem} of {e.total}</small>
+          <small>Currently  Graduated in Computer Engineering</small>
         </div>
       </div>
     </div>

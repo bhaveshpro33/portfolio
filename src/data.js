@@ -5,7 +5,7 @@ export default {
   location: "Ahmedabad, Gujarat, India",
   // Real URLs only. Empty string = control is hidden.
   links: { email: "bhaveshkondaskr33@gamil.com", github: "https://github.com/bhaveshpro33", linkedin: "https://www.linkedin.com/in/bhaveshpro33", phone: "6359522830" },
-  education: { degree: "Computer Engineering", school: "SETI Ahmedabad", status: "7th semester", sem: 7, total: 8, cgpa: "7.68" }, // edit status when it changes
+  education: { degree: "Computer Engineering", school: "SETI Ahmedabad", status: "Graduated", sem: 7, total: 10, cgpa: "7.68" }, // edit status when it changes
   lead: {
     flutter: "Flutter apps with clean UI, REST APIs, GetX and Firebase.",
     java: "Java backends with Spring Boot, secure auth and relational data."
